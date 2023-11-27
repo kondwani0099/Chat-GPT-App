@@ -12,7 +12,7 @@ class _HomeScreenState extends State<HomeScreen> {
   List<String> chatMessages = [];
 
   Future<String> sendTextToChatGPT(String text) async {
-    final apiKey = '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';
+    final apiKey = '';
     final endpoint = 'https://api.openai.com/v1/engines/text-davinci-003/completions';
     final headers = {
       'Authorization': 'Bearer $apiKey',
